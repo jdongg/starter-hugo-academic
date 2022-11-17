@@ -1,9 +1,9 @@
 +++
-title = "A semi-implicit method for incompressible three-phase flow in porous media"
-date = 2016-08-12T00:00:00
+title = "Three-phase flow simulations in one dimension"
+date = 2014-03-18T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Justin Dong, Beatrice Riviere"]
+authors = ["Justin Dong"]
 
 # Publication type.
 # Legend:
@@ -19,17 +19,17 @@ authors = ["Justin Dong, Beatrice Riviere"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "*Computational Geosciences, 20*(6)"
+publication = "*SIAM Undergraduate Research Online, 7*"
 publication_short = ""
 
 # Abstract.
-abstract = "In this paper, we present a semi-implicit method for the incompressible three-phase flow equations in two dimensions. In particular, a high-order discontinuous Galerkin spatial discretization is coupled with a backward Euler discretization in time. We consider a pressure-saturation formulation, decouple the pressure and saturation equations, and solve them sequentially while still keeping each equation implicit in its respective unknown. We present several numerical examples on both homogeneous and heterogeneous media, with varying permeability and porosity. Our results demonstrate the robustness of the scheme. In particular, no slope limiters are required and a relatively large time step may be taken."
+abstract = "The modeling of three-phase fluid flow has many important applications in reservoir simulation. In this paper, we introduce a high order method for sequentially solving the phase pressure-saturation formulation of three-phase flow. The sequential approach, while less stable than a fully coupled approach, is more computationally efficient. We present a discontinuous Galerkin method in space, suitable for the sequential approach due to its high-order accuracy. We consider coarser meshes with high degree polynomials to minimize the dimension of the system while maximizing accuracy. Numerical results are given for homogeneous media."
 
 # Summary. An optional shortened abstract.
-summary = "In this paper, we present a semi-implicit method for the incompressible three-phase flow equations in two dimensions. In particular, a high-order discontinuous Galerkin spatial discretization is coupled with a backward Euler discretization in time. "
+summary = "The modeling of three-phase fluid flow has many important applications in reservoir simulation. In this paper, we introduce a high order method for sequentially solving the phase pressure-saturation formulation of three-phase flow."
 
 # Digital Object Identifier (DOI)
-doi = "10.1007/s10596-016-9583-2"
+doi = "10.1137/13S012637"
 
 # Is this a featured publication? (true/false)
 featured = false
@@ -55,7 +55,7 @@ projects = []
 slides = ""
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "http://evoq-eval.siam.org/Portals/0/Publications/SIURO/Vol7/High_Order_Method_for_Three_Phase_Flow.pdf?ver=2018-04-06-151920-713"
 url_code = ""
 url_dataset = ""
 url_project = ""
