@@ -64,7 +64,7 @@ In this post, we'll take a look at conservation laws, the contexts in which they
 $$
 \begin{equation}
   \begin{cases}
-    u_{t} + f(u)_{x} = 0 &\text{in}\;\mathbb{R} \times [0,\infty)\\\\\\
+    u_{t} + f(u)_{x} = 0 &\text{in}\;\mathbb{R} \times [0,\infty)\\
     u(x,0) = u_{0}(x) &\text{on}\;\mathbb{R} \times \{t=0\}.
   \end{cases}
   \label{eq:conslaw}
