@@ -44,7 +44,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:justin_dong@brown.edu".
+  link: 'mailto:justin_dong@brown.edu'  # For a direct email link, use "mailto:justin_dong@brown.edu".
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=hWo81F0AAAAJ&hl=en
@@ -55,7 +55,7 @@ social:
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 - icon: cv
   icon_pack: ai
-  link: files/JustinDongCV.pdf
+  link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
