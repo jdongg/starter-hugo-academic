@@ -1,72 +1,84 @@
 ---
 # Display name
-name: Justin Dong
+title: Alice Bighetti 吳恩達
 
-# Username (this should match the folder name)
-authors:
-- admin
+# Full name (for SEO)
+first_name: Alice
+last_name: Bighetti
 
 # Is this the primary user of the site?
 superuser: true
 
-# Role/position
-role: Ph.D. Candidate, Applied Mathematics
+# Role/position/tagline
+role: Professor of Artificial Intelligence
 
-# Organizations/Affiliations
+# Organizations/Affiliations to show in About widget
 organizations:
-- name: Brown University
-  url: ""
+  - name: Stanford University
+    url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include numerical analysis, scientific computing, and data science.
+bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
+# Interests to show in About widget
 interests:
-- Numerical Analysis
-- Scientific Computing
-- Data Science
+  - Artificial Intelligence
+  - Computational Linguistics
+  - Information Retrieval
 
+# Education to show in About widget
 education:
   courses:
-  - course: MSc in Applied Mathematics
-    institution: Brown University
-    year: 2019
-  - course: BA in Applied Mathematics
-    institution: Rice University
-    year: 2014
-  - course: BSc in Mechanical Engineering
-    institution: Rice University
-    year: 2014
+    - course: PhD in Artificial Intelligence
+      institution: Stanford University
+      year: 2012
+    - course: MEng in Artificial Intelligence
+      institution: Massachusetts Institute of Technology
+      year: 2009
+    - course: BSc in Artificial Intelligence
+      institution: Massachusetts Institute of Technology
+      year: 2008
 
 # Social/Academic Networking
-# For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
+# For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:justin_dong@brown.edu".
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.com/citations?user=hWo81F0AAAAJ&hl=en
-- icon: github
-  icon_pack: fab
-  link: https://github.com/jdongg
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
-- icon: cv
-  icon_pack: ai
-  link: files/JustinDongCV.pdf
+  - icon: envelope
+    icon_pack: fas
+    link: '/#contact'
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/GeorgeCushen
+    label: Follow me on Twitter
+    display:
+      header: true
+  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: fas
+    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/gcushen
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/
+
+# Link to a PDF of your resume/CV.
+# To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
+# and uncomment the lines below.
+# - icon: cv
+#   icon_pack: ai
+#   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
-  
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.  
-user_groups:
-- Researchers
-- Visitors
+email: ''
+
+# Highlight the author in author lists? (true/false)
+highlight_name: true
 ---
 
-I am a third year Ph.D. student in the Division of Applied Mathematics at Brown University. My research interests include scientific computing and numerical analysis of high-order methods for PDEs, especially as they pertain to problems in computational fluid dynamics. Presently, I am researching the use of deep neural networks to solve PDEs with my advisor, Professor [Mark Ainsworth](https://www.brown.edu/academics/applied-mathematics/mark-ainsworth). I am a recipient of the NSF Graduate Research Fellowship.
+Alice Bighetti is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
 
-I am interested in increasing the participation of historically underrepresented groups in higher mathematics. Currently, I organize both the [APMA Directed Reading Program](http://www.dam.brown.edu/drp/index.html) and Mentoring Program.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
