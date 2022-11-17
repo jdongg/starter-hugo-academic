@@ -60,7 +60,7 @@ gallery_item:
 ## **1. Conservation Laws**
 
 In this post, we'll take a look at conservation laws, the contexts in which they arise in nature, and some of the numerical methods used for solving them. In one spatial-dimension, conservation laws take the general form 
-{{< /math >}}
+{{< math >}}
 $$
 \begin{equation}
   \begin{cases}
@@ -101,7 +101,7 @@ Shocks such as the one above occur naturally in many settings, for instance high
 
 
 ## **1.2 Weak Solutions of Conservation Laws**
-**Definition 1.** *We call $u(x,t)$ a* **weak solution** *of the conservation law {{< /math >}}$\eqref{eq:conslaw}${{< /math >}} if*
+**Definition 1.** *We call $u(x,t)$ a* **weak solution** *of the conservation law {{< math >}}$\eqref{eq:conslaw}${{< /math >}} if*
 $$
 \begin{equation} 
   \int\_{0}^{\infty}\int\_{-\infty}^{\infty} u\varphi\_{t} + f(u)\varphi\_{x}\;dxdt = -\int\_{-\infty}^{\infty} u(x,0)\varphi(x,0)\;dx
