@@ -45,6 +45,12 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:justin_dong@brown.edu'  # For a direct email link, use "mailto:justin_dong@brown.edu".
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/GeorgeCushen
+  label: Follow me on Twitter
+  display:
+    header: false
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=hWo81F0AAAAJ&hl=en
