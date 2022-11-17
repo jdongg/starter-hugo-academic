@@ -2,7 +2,7 @@
 name = "Custom"
 
 # Is theme light or dark?
-[light] = true
+[light]
 
 # Primary
 primary = "#8E0000"
