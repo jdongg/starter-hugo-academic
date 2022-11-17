@@ -60,6 +60,7 @@ gallery_item:
 ## **1. Conservation Laws**
 
 In this post, we'll take a look at conservation laws, the contexts in which they arise in nature, and some of the numerical methods used for solving them. In one spatial-dimension, conservation laws take the general form 
+{{< /math >}}
 $$
 \begin{equation}
   \begin{cases}
@@ -69,6 +70,7 @@ $$
   \label{eq:conslaw}
 \end{equation}
 $$
+{{< /math >}}
 
 Here, we consider the spatial domain to be the entire real line (thus, we have no boundary conditions). The function $f(u)$ -- typically called the *flux function* -- is sufficiently smooth. As their name suggests, conservation laws preserve mass. We often think of the quantity $u$ as the density of some fluid, in which case $\int\_{\mathbb{R}} u(x,t)dx$ may be viewed as the mass of fluid. If we assume that $u$ is compactly supported in $x$ (i.e. it is nonzero outside of some compact set in $x$, a reasonable assumption as the fluid should have finite mass) and $f(0) = 0$, then taking derivatives over time yields
 $$
@@ -99,7 +101,7 @@ Shocks such as the one above occur naturally in many settings, for instance high
 
 
 ## **1.2 Weak Solutions of Conservation Laws**
-**Definition 1.** *We call $u(x,t)$ a* **weak solution** *of the conservation law $\eqref{eq:conslaw}$ if*
+**Definition 1.** *We call $u(x,t)$ a* **weak solution** *of the conservation law {{< /math >}}$\eqref{eq:conslaw}${{< /math >}} if*
 $$
 \begin{equation} 
   \int\_{0}^{\infty}\int\_{-\infty}^{\infty} u\varphi\_{t} + f(u)\varphi\_{x}\;dxdt = -\int\_{-\infty}^{\infty} u(x,0)\varphi(x,0)\;dx
