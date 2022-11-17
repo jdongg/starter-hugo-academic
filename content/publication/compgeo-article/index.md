@@ -1,4 +1,4 @@
-+++
+---
 title: "A semi-implicit method for incompressible three-phase flow in porous media"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
